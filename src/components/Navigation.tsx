@@ -7,6 +7,7 @@ const Navigation = () => {
     { to: "/", label: "Home" },
     { to: "/posts", label: "Posts" },
     { to: "/infinite-posts", label: "Infinite Posts" },
+    { to: "/infinite-posts-2", label: "Infinite Posts 2" },
     { to: "/select", label: "Select" },
     { to: "/queries", label: "Queries" },
     { to: "/pagination", label: "Pagination" },

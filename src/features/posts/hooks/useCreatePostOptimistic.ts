@@ -67,7 +67,7 @@ export const useCreatePostOptimistic = () => {
       return { previousPosts };
     },
 
-    onSuccess: (data, variables, context) => {
+    onSuccess: (data) => {
       console.log("onSuccess - server responded with:", data);
       toast.success(`Post "${data.title}" created successfully!`);
 
